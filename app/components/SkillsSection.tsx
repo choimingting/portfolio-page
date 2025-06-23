@@ -10,6 +10,8 @@ const skills = [
 	
 	{ skill: 'Responsive Design', level: 90 },
 	{ skill: 'Vue.js', level: 90 },
+	{ skill: 'Unity (C#)', level: 90 },
+	
 	{ skill: 'React / Next.js', level: 80 },
 	{ skill: 'Bootstrap / Tailwind', level: 80 },
 	// { skill: 'Electron', level: 80 },
