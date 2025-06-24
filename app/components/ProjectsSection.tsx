@@ -5,12 +5,6 @@ import { motion } from 'framer-motion';
 
 const projects = [
 	{
-		title: 'Crystal Break',
-		description: 'A Tetris-inspirated PVP puzzle game featuring diverse characters with unique skills',
-		image: '/crystal_break.jpg',
-		tags: ['Unity (C#)', 'Photon Server', 'Mobile Game', 'Multiplayer', 'Real-time combat'],
-	},
-	{
 		title: 'I-WELL',
 		description: 'An interactive platform containing various mini-games, with physical sensors, designed for children with Special Education Needs (SEN), measuring their cognitive abilities',
 		image: '/iwell.jpg',
@@ -19,9 +13,16 @@ const projects = [
 
 	{
 		title: 'HK Central Library Virtual Tour',
-		description: 'An immersive virtual tour application of the Hong Kong Central Library showcases its facilities and services, including a real-time multiplayer mini-quiz that educates visitors about the library\'s rules.',
+		description: 'An immersive virtual tour application of the Hong Kong Central Library showcases its facilities and services, including a real-time multiplayer mini-quiz that educates visitors about the library\'s rules',
 		image: '/hk_central_library.jpg',
 		tags: ['Vue.js', 'Progressive Web App (PWA)', 'Game', 'Socket.IO', 'WebGL'],
+	},
+
+	{
+		title: 'Crystal Break',
+		description: 'A Tetris-inspirated PVP puzzle game featuring diverse characters with unique skills',
+		image: '/crystal_break.jpg',
+		tags: ['Unity (C#)', 'Photon Server', 'Mobile Game', 'Multiplayer', 'Real-time combat'],
 	},
 
 	{
@@ -42,8 +43,38 @@ const projects = [
 		title: 'Wesip.',
 		description: 'A membership platform providing high-quality coffee and tea, fostering a community of beverage lovers',
 		image: '/wesip.jpg',
-		tags: ['Website', 'Vue.js', 'AWS', 'Responsive Web Design', 'E-commerce', 'AI'],
+		tags: ['Website', 'Vue.js', 'Responsive Web Design', 'E-commerce', 'AI'],
 	},
+
+	{
+		title: 'Golden Key',
+		description: 'A website for a storage warehouse company, showcasing their services and providing booking functions',
+		image: '/golden_key.jpg',
+		tags: ['Website', 'WordPress', 'PHP', 'Responsive Web Design', 'E-commerce'],
+	},
+
+	{
+		title: 'EFT Pay',
+		description: 'A payment gateway website offering secure and efficient online payment solutions',
+		image: '/eft_pay.jpg',
+		tags: ['Website', 'WordPress', 'PHP', 'Responsive Web Design', 'E-commerce'],
+	},
+
+	{
+		title: 'Relationsheep',
+		description: 'A mini game developed for the Global Game Jam, where the player plays as a sheep trying to find his missing friends in the woods',
+		image: '/relationsheep.jpg',
+		tags: ['Game', 'Unity (C#)', 'Global Game Jam'],
+	},
+
+	{
+		title: 'AR Tower Defense Game',
+		description: 'An augmented reality tower defense game that detect the real world environment and allows players to place towers on real-world surfaces using Vuforia',
+		image: '/ar_tower_defense.jpg',
+		tags: ['Mobile Game', 'Unity (C#)', 'AR', 'Vuforia'],
+	}
+
+
 
 ];
 
