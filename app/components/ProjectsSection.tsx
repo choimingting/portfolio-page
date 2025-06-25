@@ -62,7 +62,7 @@ const projects = [
 
 	{
 		title: 'Relationsheep',
-		description: 'A mini game developed for the Global Game Jam, where the player plays as a sheep trying to find his missing friends in the woods',
+		description: 'A mini game developed for the Global Game Jam. The player plays as a sheep trying to find his missing friends in the woods',
 		image: '/relationsheep.jpg',
 		tags: ['Game', 'Unity (C#)', 'Global Game Jam'],
 	},
